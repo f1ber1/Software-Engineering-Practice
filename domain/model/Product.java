@@ -6,7 +6,7 @@ public class Product {
     private final ProductId id;
     private final String name;
     private final Money unitPrice;
-    private final String code; // 可当作 barcode/sku
+    private final String code;
 
     public Product(String code, String name, Money unitPrice) {
         this.id = new ProductId(code);
